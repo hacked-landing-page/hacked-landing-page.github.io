@@ -56,6 +56,9 @@
 			color: #A9A9A9;
 		}
 	}
+	.text-capitalize {
+		font-size: 17px;
+	}
 }
 
 .question-wrapper{
@@ -95,4 +98,8 @@
 
 .video-height{
 	height: 400px;
+}
+
+.custom-controls-hidden::-webkit-media-controls {
+	display: none !important;
 }
