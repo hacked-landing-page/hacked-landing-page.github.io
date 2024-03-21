@@ -35172,7 +35172,7 @@ ul.ul-no-spacing {
 
 .home-title {
   font-size: 36px;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .section-title {
@@ -35244,6 +35244,11 @@ ul.ul-no-spacing {
   color: #fff;
 }
 
+.feature {
+  background: url("../images/feature-bg.png") no-repeat center center;
+  background-size: cover;
+}
+
 .number-wrapper {
   padding: 120px 0;
   background: #061122 url("../images/number.png") no-repeat bottom right;
@@ -35263,12 +35268,12 @@ ul.ul-no-spacing {
   color: #A9A9A9;
 }
 .number-wrapper .text-capitalize {
-  font-size: 17px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .question-wrapper {
-  background: url("../images/question.png") no-repeat center center;
-  background-size: cover;
+  background-color: #121212;
   padding: 100px 0;
 }
 

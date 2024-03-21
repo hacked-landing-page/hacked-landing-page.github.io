@@ -34,6 +34,14 @@
 	}
 }
 
+.feature {
+	background: url('../images/feature-bg.png') no-repeat center center;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
 .number-wrapper{
 	padding: 120px 0;
 	background: #061122 url('../images/number.png') no-repeat bottom right;
@@ -57,16 +65,18 @@
 		}
 	}
 	.text-capitalize {
-		font-size: 17px;
+		font-size: 18px;
+		font-weight: 500;
 	}
 }
 
 .question-wrapper{
-	background: url('../images/question.png') no-repeat center center;
-	-webkit-background-size: cover;
-	   -moz-background-size: cover;
-	     -o-background-size: cover;
-	        background-size: cover;
+	// background: url('../images/question.png') no-repeat center center;
+	// -webkit-background-size: cover;
+	//    -moz-background-size: cover;
+	//      -o-background-size: cover;
+	//         background-size: cover;
+	background-color: #121212;
 	padding: 100px 0;
 }
 
