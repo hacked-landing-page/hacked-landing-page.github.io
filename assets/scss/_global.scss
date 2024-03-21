@@ -26,9 +26,20 @@
   --header-color: #C6C9CB;
   --white: #fff
 }
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
 
 *{
-  font-family: "BerninaSans", sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;

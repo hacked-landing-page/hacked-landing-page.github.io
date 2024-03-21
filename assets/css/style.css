@@ -25,8 +25,18 @@
   --white: #fff ;
 }
 
+.inter {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
 * {
-  font-family: "BerninaSans", sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   color: var(--black);
@@ -35234,7 +35244,7 @@ ul.ul-no-spacing {
   transition: background 0.3s ease-in-out;
   text-decoration: none;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
