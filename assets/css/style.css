@@ -35320,3 +35320,14 @@ footer {
 .custom-controls-hidden::-webkit-media-controls {
   display: none !important;
 }
+
+.term-page {
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+.term-page h2 {
+  margin-bottom: 40px;
+}
+.term-page h4 {
+  margin-bottom: 20px;
+}
