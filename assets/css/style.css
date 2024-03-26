@@ -35228,6 +35228,11 @@ ul.ul-no-spacing {
   height: 32px;
 }
 
+footer {
+  padding: 40px 0;
+  border-top: 1px solid #344066;
+}
+
 .banner {
   background: url("../images/banner-bg.png") no-repeat center center;
   background-size: cover;
