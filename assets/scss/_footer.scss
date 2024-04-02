@@ -1,4 +1,15 @@
 footer {
     padding:40px 0;
     border-top: 1px solid #344066;
-}
+    ul {
+        justify-content: center!important;
+        li {
+            font-size: 17px;
+        }
+    }
+    .left-area {
+        p {
+            font-size: 17px;
+        }
+    }
+} 

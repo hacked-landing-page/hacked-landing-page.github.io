@@ -35232,6 +35232,17 @@ footer {
   padding: 40px 0;
   border-top: 1px solid #344066;
 }
+footer ul {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+footer ul li {
+  font-size: 17px;
+}
+footer .left-area p {
+  font-size: 17px;
+}
 
 .banner {
   background: url("../images/banner-bg.png") no-repeat center center;
@@ -35330,4 +35341,18 @@ footer {
 }
 .term-page h4 {
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  footer ul {
+    -webkit-box-pack: right !important;
+        -ms-flex-pack: right !important;
+            justify-content: right !important;
+  }
+  footer ul li {
+    font-size: 12px;
+  }
+  footer .left-area p {
+    font-size: 12px;
+  }
 }
