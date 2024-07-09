@@ -150,7 +150,7 @@
                 <div class="image text-center">
                   <img src="./assets/images/number-1.svg" />
                 </div>
-                <div class="number fs-48 f-600">170</div>
+                <div class="number fs-48 f-600" id="number-submission">170</div>
                 <div class="text text-capitalize inter">tests completed</div>
               </div>
             </div>
@@ -287,6 +287,26 @@
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <script>
   $(document).ready(function() {
+
+    async function getData() {
+      const url = "https://api.hacked.sg/public/submission-completed";
+      try {
+        const response = await fetch(url);
+        if (!response.ok) {
+          throw new Error(`Response status: ${response.status}`);
+        }
+
+        const json = await response.json();
+        $("#number-submission").text(json.numberSubmissionCompleted.toString());
+        console.log("🚀 ~ getData ~ json:", typeof json.numberSubmissionCompleted.toString())
+      } catch (error) {
+        console.error(error.message);
+      }
+    }
+
+    getData();
+    
+
     var videos = $('.media-item');
 
     function stopOtherVideos(currentVideo) {
@@ -305,7 +325,7 @@
     videos.on('play', handleVideoPlay);
 
     var scrollPosition = $(window).scrollTop();
-    console.log(scrollPosition)
+    // console.log(scrollPosition)
 
     // Wait for user interaction before attempting to play videos
     $(document).on('click', function() {
@@ -347,6 +367,7 @@
     //     var video = document.getElementsByTagName('video');
     //     video.play();
     // });
+    
   </script> 
 
   <style>
